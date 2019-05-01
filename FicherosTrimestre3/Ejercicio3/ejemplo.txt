@@ -1,0 +1,9 @@
+Un ejemplo sería sacar el cambio de divisa de 
+la página web que os paso.
+
+Con la clase hecha sería muy fácil.
+
+Primero buscaríamos la cadena "cc-ratebox". 
+Desde ahí, buscaríamos "tabindex".
+Y extraeríamos la cadena comprendida entre ">" y "<".
+Nos debería salir: "EUR/USD = 0,88822".
