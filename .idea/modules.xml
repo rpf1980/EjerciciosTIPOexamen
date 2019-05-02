@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BuscaTexto/BuscaTexto.iml" filepath="$PROJECT_DIR$/BuscaTexto/BuscaTexto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CuatroVocales/CuatroVocales.iml" filepath="$PROJECT_DIR$/CuatroVocales/CuatroVocales.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FicherosTrimestre3/Ejercicio1/Ejercicio1.iml" filepath="$PROJECT_DIR$/FicherosTrimestre3/Ejercicio1/Ejercicio1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FicherosTrimestre3/Ejercicio2/Ejercicio2.iml" filepath="$PROJECT_DIR$/FicherosTrimestre3/Ejercicio2/Ejercicio2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FicherosTrimestre3/Ejercicio3/Ejercicio3.iml" filepath="$PROJECT_DIR$/FicherosTrimestre3/Ejercicio3/Ejercicio3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FicherosTrimestre3/Ejercicio4/Ejercicio4.iml" filepath="$PROJECT_DIR$/FicherosTrimestre3/Ejercicio4/Ejercicio4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExamenInglesProgram/ExamenInglesProgram.iml" filepath="$PROJECT_DIR$/ExamenInglesProgram/ExamenInglesProgram.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HaceCalor/HaceCalor.iml" filepath="$PROJECT_DIR$/HaceCalor/HaceCalor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TransfiereFicheroBD/TransfiereFicheroBD.iml" filepath="$PROJECT_DIR$/TransfiereFicheroBD/TransfiereFicheroBD.iml" />
+    </modules>
+  </component>
+</project>

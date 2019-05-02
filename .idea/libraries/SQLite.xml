@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="SQLite">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/FicherosTrimestre3/SQLite/sqlite-jdbc-3.23.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FicherosTrimestre3/SQLite/SQLiteStudio-3.2.1-Portable.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
