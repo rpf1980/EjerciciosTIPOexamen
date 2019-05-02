@@ -5,7 +5,12 @@ public class Main
 
     public static void main(String[] args)
     {
-        //Liga de
+        LigaBaloncesto lb = new LigaBaloncesto();
+
+        lb.cargarLiga("liga.csv");
+
+        lb.guardarLiga("LIGAguardada.csv");
+
     }
 }
 
