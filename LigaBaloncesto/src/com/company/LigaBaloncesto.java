@@ -77,13 +77,7 @@ public class LigaBaloncesto
 
                 bw.write(equipo.getNombre() + ";" + equipo.getVictorias() + ";" + equipo.getDerrotas() +
                             equipo.getPuntosAnotados() + ";" + equipo.getPuntosRecibidos());
-
-                /*bw.write(equipo.getNombre() + ";");
-                bw.write(equipo.getVictorias() + ";");
-                bw.write(equipo.getDerrotas() + ";");
-                bw.write(equipo.getPuntosAnotados() + ";");
-                puntosRecib = equipo.getPuntosRecibidos();
-                bw.write(String.valueOf(  puntosRecib));*/
+                
 
                 bw.newLine();
             }
