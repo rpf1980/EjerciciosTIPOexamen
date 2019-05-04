@@ -61,4 +61,45 @@ public class EquipoBaloncesto
        return getNombre();
     }
 
+    //Método para sacar mayor - menor - igual de las victorias
+    public int compareTo(Object obj)
+    {
+        EquipoBaloncesto equipo = (EquipoBaloncesto)obj; //Ojeto genérico (se adapta a la clase que lo asignemos)
+
+        if(this.victorias > equipo.victorias)
+        {
+            return 1;
+        }
+        else
+        {
+            if(this.victorias < equipo.victorias)
+            {
+                return -1;
+            }
+            else
+            {
+                //En esta parte entramos si hay empate... y lo que hacemos es volver a sacar las cifras mayor-menor-mepate...de los cálculos del empate
+                int dif1 = this.puntosAnotados - this.puntosRecibidos;
+                int dif2 = equipo.puntosAnotados - equipo.puntosRecibidos;
+
+                if(dif1 > dif2)
+                {
+                    return 1;
+                }
+                else
+                {
+                    if(dif1 < dif2)
+                    {
+                        return -1;
+                    }
+                    else
+                    {
+                        return 0;
+                    }
+                }
+            }
+        }
+
+    }
+
 }

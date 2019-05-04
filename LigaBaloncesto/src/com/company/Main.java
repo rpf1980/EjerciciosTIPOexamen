@@ -9,7 +9,11 @@ public class Main
 
         lb.cargarLiga("liga.csv");
 
-        lb.guardarLiga("LIGAguardada.csv");
+        //lb.guardarLiga("LIGAguardada.csv");
+
+        String toString = lb.clasificacion();
+        System.out.println(toString);
+
 
     }
 }
