@@ -67,7 +67,11 @@ public class LigaBaloncesto
     public void guardarLiga(String fichero)
     {
         int i;
+<<<<<<< HEAD
         int puntosRecibidos;
+=======
+        int puntosRecib = 0;
+>>>>>>> ed9eb90480ebe361dc558a90f2c16717bbe781c5
 
         try
         {
@@ -76,7 +80,15 @@ public class LigaBaloncesto
 
             for(i = 0; i < this.getListaEquipos().size(); i++)
             {
+<<<<<<< HEAD
                 EquipoBaloncesto equipo = this.getListaEquipos().get(i);
+=======
+                EquipoBaloncesto equipo = this.listaEquipos.get(i);
+
+                bw.write(equipo.getNombre() + ";" + equipo.getVictorias() + ";" + equipo.getDerrotas() +
+                            equipo.getPuntosAnotados() + ";" + equipo.getPuntosRecibidos());
+                
+>>>>>>> ed9eb90480ebe361dc558a90f2c16717bbe781c5
 
                 bw.write(equipo.getNombre() + ";" + equipo.getVictorias() + ";" + equipo.getDerrotas() + ";"
                             + equipo.getPuntosAnotados() + ";" + equipo.getPuntosRecibidos());
