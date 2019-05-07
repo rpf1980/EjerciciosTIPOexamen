@@ -57,7 +57,6 @@ public class Main
             for (j = 0; j < array[i].length; j++)
             {
                 System.out.print(padLeft(String.valueOf(array[i][j]), max));
-                //Console.Write(array[i, j].ToString().PadLeft(max));
             }
             System.out.println();
         }
