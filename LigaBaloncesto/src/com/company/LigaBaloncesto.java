@@ -87,8 +87,12 @@ public class LigaBaloncesto
 
                 bw.write(equipo.getNombre() + ";" + equipo.getVictorias() + ";" + equipo.getDerrotas() +
                             equipo.getPuntosAnotados() + ";" + equipo.getPuntosRecibidos());
+<<<<<<< HEAD
+
+=======
                 
 >>>>>>> ed9eb90480ebe361dc558a90f2c16717bbe781c5
+>>>>>>> b51e3334ee066b8c26ddaf460e428265c47a32c0
 
                 bw.write(equipo.getNombre() + ";" + equipo.getVictorias() + ";" + equipo.getDerrotas() + ";"
                             + equipo.getPuntosAnotados() + ";" + equipo.getPuntosRecibidos());
