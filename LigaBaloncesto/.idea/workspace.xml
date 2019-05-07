@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1775e957-7f0f-4e22-908d-45b8d3b3ed69" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LIGAguardada.csv" beforeDir="false" afterPath="$PROJECT_DIR$/LIGAguardada.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LigaBaloncesto/com/company/LigaBaloncesto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LigaBaloncesto/com/company/LigaBaloncesto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LigaBaloncesto/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LigaBaloncesto/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/LigaBaloncesto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/LigaBaloncesto.java" afterDir="false" />
-    </list>
+    <list default="true" id="1775e957-7f0f-4e22-908d-45b8d3b3ed69" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,8 +35,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/LigaBaloncesto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="92" column="9" selection-start-line="92" selection-start-column="9" selection-end-line="92" selection-end-column="9" />
+            <state relative-caret-position="223">
+              <caret line="79" column="16" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -141,6 +133,14 @@
       <option name="presentableId" value="Default" />
       <updated>1556821486189</updated>
     </task>
+    <task id="LOCAL-00001" summary="Borro comentario dentro de un try catch">
+      <created>1556884759139</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1556884759139</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -175,6 +175,10 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Borro comentario dentro de un try catch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Borro comentario dentro de un try catch" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -198,8 +202,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/LigaBaloncesto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="92" column="9" selection-start-line="92" selection-start-column="9" selection-end-line="92" selection-end-column="9" />
+        <state relative-caret-position="223">
+          <caret line="79" column="16" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

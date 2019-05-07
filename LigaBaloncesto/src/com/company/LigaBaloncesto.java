@@ -77,7 +77,7 @@ public class LigaBaloncesto
 
                 bw.write(equipo.getNombre() + ";" + equipo.getVictorias() + ";" + equipo.getDerrotas() +
                             equipo.getPuntosAnotados() + ";" + equipo.getPuntosRecibidos());
-                
+
 
                 bw.newLine();
             }
