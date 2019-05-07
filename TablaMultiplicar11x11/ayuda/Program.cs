@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Corrección_Mayo_Ejercicio_4
+namespace Correccion_Mayo_Ejercicio_4
 {
     class Program
     {
@@ -32,7 +32,7 @@ namespace Corrección_Mayo_Ejercicio_4
 
         static void EscribeBonito(int[,] array)
         {
-            // Primero: buscar lo que más ocupa del array
+            // Primero: buscar lo que mas ocupa del array
             int i, j;
             int max = 0;
             int longitud;
