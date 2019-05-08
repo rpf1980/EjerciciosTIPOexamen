@@ -5,6 +5,7 @@ import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 public class Main
@@ -31,12 +32,15 @@ public class Main
     public static void palabraMasRepite(String fichero)
     {
         int i,j;
+        int max = 0;
+        int pos = -1;
         int contador = 0;
         String palabra;
         String linea;
         String[] trozos;
         List<String> listaPalabrasUnicas = new ArrayList<>();
         List<String> listaConTodoElTexto = new ArrayList<>();
+        List<Integer> listaContador = new ArrayList<>();
         int[] arrayContador;
 
         try
@@ -65,24 +69,51 @@ public class Main
                 }
                 linea = br.readLine();
             }
+            br.close();
+            fr.close();
 
-            //Comparamos todo el contenido del texto con nuestra lista de palabras únicas y cada vez que coincidan se suma el contador en dicha posición
+            /*Comparamos todo el contenido del texto con nuestra lista de palabras únicas y cada vez que coincidan se suma el contador en dicha posición*/
             arrayContador = new int[listaPalabrasUnicas.size()]; //Al array contador le damos el tamaño de la lista de palabras únicas
-            for(i = 0; i < listaConTodoElTexto.size(); i++)
+            for(i = 0; i < listaPalabrasUnicas.size(); i++)
             {
-                for(j = 0; j < listaPalabrasUnicas.size(); j++)
+                for(j = 0; j < listaConTodoElTexto.size(); j++)
                 {
-                    if(listaConTodoElTexto.get(i).equals(listaPalabrasUnicas.get(i)))
+                    if(listaPalabrasUnicas.get(i).equals(listaConTodoElTexto.get(j)))
                     {
-                        arrayContador[j]++;
+                        arrayContador[i]++;
                     }
                 }
             }
 
-            //Ahora tenemos que comparar los tamaños de los elementos del contador... y con ello tendremos números de veces que se repiten las palabras de nuestra lista de palabras únicas
+            //Ahora tenemos que buscar los 10 valores mayores de la lista de únicos ... Recuerda que nuestro contador tiene las mismas posiciones que dicha lista
+            //Voy a pasar el contador a una lista
+            for(i = 0; i < arrayContador.length; i++)
+            {
+                listaContador.add(arrayContador[i]);
+            }
 
-            br.close();
-            fr.close();
+            //Ahora es cuando buscamos los máximos de la lista y los vamos borrando tanto en una como en otra
+            listaConTodoElTexto.clear();
+            for(i = 0; i < listaContador.size(); i++)
+            {
+                max = Collections.max(listaContador);
+                pos = listaContador.indexOf(max);
+
+                listaConTodoElTexto.add(listaPalabrasUnicas.get(pos));
+
+                listaContador.remove(pos);
+                listaPalabrasUnicas.remove(pos);
+                i--;
+
+                if(listaConTodoElTexto.size() == 3)
+                {
+                    i = listaContador.size();
+                }
+            }
+
+            System.out.println(listaConTodoElTexto);
+            System.out.println(listaConTodoElTexto.size());
+
         }
         catch (Exception e)
         {
@@ -92,6 +123,9 @@ public class Main
 
     public static void main(String[] args)
     {
+        //palabraMasRepite("donquijote.txt");
+
+        //Hacemos la prueba con un fragmento del libro.. ya que el programa se cuelga debido al contenido masivo del mismo
         palabraMasRepite("parrafoPruebas.txt");
     }
 }
