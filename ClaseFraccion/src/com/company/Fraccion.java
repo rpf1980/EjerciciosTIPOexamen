@@ -24,4 +24,7 @@ public class Fraccion
         this.numerador = (int)n;
         this.denominador = 100;
     }
+
+    //Métodos operadores
+    public int
 }
