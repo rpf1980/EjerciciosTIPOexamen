@@ -1,0 +1,104 @@
+Para ejecutar una tarea de forma periódica, podemos utilizar:
+A. El comando at
+B. Tanto el comando cron como el comando at
+C. El comando cron
+D. El comando schedule
+ANSWER: C
+
+El comando at lee los comandos que se van a ejecutar:
+A. De la entrada estándar
+B. De un fichero
+C. De un fichero, usando la opción -f
+D. Puede leerlos de un fichero o de la entrada estándar
+ANSWER: D
+
+En el comando at, entre las palabras clave que podemos usar para definir el momento de ejecución de la tarea, NO se encuentra
+A. Afternoon
+B. Noon
+C. Midnight
+D. Now
+ANSWER: A
+
+En el comando at, para especificar una fecha completa, usaremos la sintaxis:
+A. Podemos usar MMDDAA, MM/DD/AA ó DD.MM.AA indistintamente
+B. MMDDAA
+C. MM/DD/AA
+D. DD.MM.AA
+ANSWER: A
+
+Para que funcione correctamente el comando at:
+A. Debemos tener configurado correctamente el comando cron
+B. Debe estar en ejecución el demonio atd
+C. Debe existir el fichero /etc/at.deny
+D. Debemos utilizar a continuación el comando batch
+ANSWER: B
+
+El comando cron:
+A. Es un programa 
+B. Es un programa, pero también existe un demonio que se llama crond
+C. Es un programa, pero también existe un demonio que se llama crontab
+D. Es en realidad un demonio que se está ejecutando en segundo plano continuamente 
+ANSWER: D
+
+El comando cron examina la configuración de /etc/crontab y ejecuta las tareas que encuentra cada:
+A. 30 segundos
+B. 1 minuto
+C. 1 hora
+D. 1 segundo
+ANSWER: B
+
+El orden en el que aparecen las unidades de tiempo en el fichero /etc/crontab es:
+A. Mes, Día, Hora, Minuto
+B. Mes, Día del mes, Hora, Minuto, Día de la semana
+C. Minuto, Hora, Día del mes, Mes, Día de la semana
+D. Mes, Día del mes, Día de la semana, Hora, Minuto
+ANSWER: C
+
+Para indicar varios valores en cualquiera de los campos que especifican la periodicidad de una tarea en el fichero /etc/crontab, usaremos:
+A. Listas separadas por comas
+B. Asteriscos
+C. Listas separadas por dos puntos
+D. No se pueden indicar varios valores
+ANSWER: A
+
+Tras los campos de periodicidad que encontramos en el fichero /etc/crontab, aparece:
+A. El nombre de usuario que ejecutará la tarea y la tarea a ejecutar si somos root y sólo la tarea a ejecutar si somos un usuario normal
+B. El nombre de usuario que ejecutará la tarea y la tarea a ejecutar
+C. La tarea a ejecutar
+D. El nombre de usuario que ejecutará la tarea, la tarea a ejecutar y los permisos de ejecución
+ANSWER: B
+
+Para crear tareas cron de usuario, usaremos el comando:
+A. run-parts
+B. cronloop
+C. crontab
+D. cron -u
+ANSWER: C
+
+/etc/cron.hourly y /etc/cron.daily
+A. Son ficheros en los que configuraremos la tareas que se ejecutarán diariamente y semanalmente, respectivamente
+B. Son ficheros en los que configuraremos la tareas que se ejecutarán cada hora y cada día, respectivamente
+C. Son directorios donde podemos copiar los scripts que deseemos ejecutar
+D. Son demonios del sistema que ejecutan tareas cada hora y cada día, respectivamente
+ANSWER: C
+
+El comando anacron:
+A. Al igual que cron, es un demonio que se ejecuta continuamente
+B. Al igual que cron, es un programa y no un demonio
+C. Al contrario que cron, es un demonio que se ejecuta continuamente
+D. Al contrario que cron, no es un demonio que se ejecute continuamente
+ANSWER: D
+
+El comando anacron:
+A. Se usa para ejecutar las tareas periódicas que no se ejecutaron en su momento
+B. Se usa para planificar tareas periódicas con intervalos irregulares
+C. Se usa para ejecutar una tarea en un momento determinado (no periódica)
+D. Se usa para ejecutar tareas asíncronas
+ANSWER: A
+
+En el fichero /etc/crontab podemos indicar, además de numéricamente, con las tres primeras letras del nombre en inglés:
+A. Mes
+B. Mes y Día de la semana
+C. Mes y Día del mes
+D. Hora y Minuto
+ANSWER: B
